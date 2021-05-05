@@ -15,6 +15,33 @@
     align-items: center;
     margin-left: 38px;
 }
+.logo strong {
+    font-size: 18px;
+}
+.category {
+    gap: 43px;
+}
+.first-element-category {
+    margin-left: 54px;
+}
+.bio-category {
+    transition: all 0.3s ease;
+}
+.bio-category:hover{
+    color: #2680EB;
+} 
+.kim-category {
+    transition: all 0.3s ease;
+}
+.kim-category:hover {
+    color: #2680EB;
+}
+.geo-category {
+    transition: all 0.3s ease;
+}
+.geo-category:hover {
+    color: #2680EB;
+}
 .info-bar {
     display: flex;
     align-items: center;
@@ -23,17 +50,38 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
     margin-right: 44px;
 }
-.logo strong {
-    font-size: 18px;
+.language {
+    font-weight: bold;
+    gap: 3px;
 }
-.catigory {
-    gap: 43px;
+.uz-ver {
+    transition: all 0.3s ease;
 }
-.first-element-catigory {
-    margin-left: 83px;
+.uz-ver:hover{
+    color: #2680EB;
+}
+.ru-ver {
+    transition: all 0.3s ease;
+}
+.ru-ver:hover{
+    color: #2680EB;
+}
+.eng-ver {
+    transition: all 0.3s ease;
+}
+.eng-ver:hover{
+    color: #2680EB;
+}
+.language::before {
+    content: '';
+    left: 96px;
+    width: 1px;
+    height: 17px;
+    background-color: black;
+    position: relative;
+
 }
 .contact a {
     color: #2680EB;
