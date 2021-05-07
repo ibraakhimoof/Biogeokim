@@ -1,30 +1,50 @@
 .headline {
-    display: flex;
-    justify-content: center;
+    position: fixed;
     width: 100%;
-    height: 60px;
+    top: 0;
+    left: 0;
+    z-index: 50;
     box-shadow:0px 3px 5px -8px #000000, 0px 0px 9px 5px rgb(0 0 0 / 15%)
+}
+.container {
+    z-index: 2;
 }
 .content {
     display: flex;
-    justify-content: space-between;
-    max-width: 1366px;
-}
-.container {
-    display: flex;
     align-items: center;
-    margin-right: 38em;
+    justify-content: space-between;
+    width: 1272px;
+    height: 60px;
+    padding-right: 24px;
+    padding-left: 24px;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 3;
 }
-.container ul {
+.navigation {
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    z-index: 3;
+}
+.navigation ul {
     align-items: center;
     margin-left: 38px;
 }
 .logo {
-    margin-right: 31px;
+    flex: 0 0 230px;
+    position: relative;
+    z-index: 5;
+    top: 4px;
+}
+.logo img {
+   max-width: 100%;
+}
+.header-burger {
+    display: none;
 }
 .categories {
+    display: flex;
     gap: 43px;
 }
 .category a {
@@ -39,13 +59,8 @@
     display: flex;
     align-items: center;
 }
-.info-bar ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 44px;
-}
 .languages {
+    display: flex;
     font-weight: bold;
     gap: 4px;
 }
@@ -64,6 +79,63 @@
     position: relative;
 }
 .contact a {
+    position: relative;
+    margin-left: 30px;
     color: #2680EB;
+
+}
+@media ( max-width: 768px ) {
+    .header-burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px; 
+        z-index: 3;   
+    }
+    .header-burger:before,
+    .header-burger:after {
+        content: '';
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+
+    }
+    .header-burger span {
+        position: absolute;
+        background-color: black;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+    }
+    .header-burger:before {
+        top: 0;
+    }
+    .header-burger:after {
+        bottom: 0;
+    }
+    .categories {
+        display: block;
+        position: fixed;
+        left: -38px;
+        top: 55px;
+        width: 100%;
+        height: 100%;
+        background-color: chartreuse;
+        padding-top: 28px;
+        padding-left: 64px;
+        transition: all 0.3s ease 0s;
+    }
+    .info-bar {
+        position: fixed;
+        left: -38px;
+        top: 55px;
+        height: 100%;
+        padding-top: 28px;
+        padding-left: 64px;
+        transition: all 0.3s ease 0s;
+    }
+   
 
 }
