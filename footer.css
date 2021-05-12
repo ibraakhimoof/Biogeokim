@@ -1,0 +1,26 @@
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background-color: #EBEBEB;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1272px;
+    height: 120px;
+    padding-right: 24px;
+    padding-left: 24px;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 3;
+}
+.footer-category span{
+    margin-left: 40px;
+}
+.feedback-icons {
+    display: flex;
+    gap: 20px;
+    
+}
