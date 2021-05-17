@@ -101,9 +101,6 @@
         height: 3px;
         left: 0;
     }
-    .horisontal-line{
-        display: block;
-    }
     .header-burger span{
         position: absolute;
         left: 0;
