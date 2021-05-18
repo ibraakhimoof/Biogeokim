@@ -141,7 +141,7 @@
     }
     .navigation.active{
         top: 60px;
-        left: -46;
+        left: -46px;
         background-color: #ffffff;
         display: block;
         box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
