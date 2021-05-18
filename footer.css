@@ -16,8 +16,14 @@ footer {
     margin-left: auto;
     z-index: 3;
 }
-.footer-category span{
+.footer-category{
+    display: flex;
+}
+.footer-category li {
     margin-left: 40px;
+}
+.footer-contact {
+    display: none;
 }
 .feedback-icons {
     display: flex;
