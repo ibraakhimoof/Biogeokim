@@ -8,6 +8,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     max-width: 1272px;
     height: 120px;
     padding-right: 24px;
@@ -22,8 +23,11 @@ footer {
 .footer-category li {
     margin-left: 40px;
 }
-.footer-contact {
+.footer-contact  {
     display: none;
+}
+.footer-contact a {
+    color: #2680EB;
 }
 .feedback-icons {
     display: flex;
