@@ -1,6 +1,6 @@
 footer {
     width: 100%;
-    position: absolute;
+    position: relative;
     bottom: 0px;
     background-color: #EBEBEB;
 }
@@ -19,7 +19,7 @@ footer {
 .footer-category{
     display: flex;
 }
-.footer-category li {
+.primary-footer-category  {
     margin-left: 40px;
 }
 .footer-contact  {
