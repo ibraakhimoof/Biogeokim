@@ -74,7 +74,32 @@ main {
 .info-element span {
     font-size: 12px;
 }
-.news-container {
+.news-blok {
+    display: flex;
     width: 100%;
-    background-color: green;
+    position: relative;
+    bottom: 50px;
+    flex-wrap: wrap;
+}
+.more-info-bloks{
+    position: relative;
+    width: 364px;
+    margin: 0 20px 50px 16px;
+    padding-left: 8px;
+    background-color: #EBEBEB;
+    border-top: 3px #2680EB solid;
+}
+.more-info-bloks h4 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.more-info-bloks article {
+    margin: 30px 0;
+    padding-bottom: 30px;
+    position: relative;
+
+}
+.more-info-bloks article span {
+    position: absolute;
+    bottom: 0;
 }
