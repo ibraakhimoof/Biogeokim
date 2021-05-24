@@ -31,6 +31,16 @@ function createDynamicElements() {
     const tagElement = document.createElement('a')
     bigCard.append(tagElement)
 
+    const selectBtn = document.createElement('button')
+    selectBtn.classList.add('selected-btn')
+    tagElement.append(selectBtn)
+
+    const infoDivElement = document.createElement('div')
+    infoDivElement.classList.add('info-element')
+    cardInfo.append(infoDivElement)
+
+    const mainInfoElement = document.createElement('h4')
+    mainInfoElement
 
 
 
