@@ -40,7 +40,15 @@ function createDynamicElements() {
     cardInfo.append(infoDivElement)
 
     const mainInfoElement = document.createElement('h4')
-    mainInfoElement
+    mainInfoElement.innerText('')
+    infoDivElement.append(mainInfoElement)
+
+    const mainPelements = document.createElement('p')
+    mainPelements.innerText('')
+    infoDivElement.append(mainPelements)
+
+    const brElement = document.createElement('br')
+    infoDivElement.append(brElement)
 
 
 
