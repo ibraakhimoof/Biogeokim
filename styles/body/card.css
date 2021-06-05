@@ -1,0 +1,80 @@
+.card {
+    width: 364px;
+    margin: 0px 20px 100px 20px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+}
+
+.card-image-container{
+    height: 250px;
+}
+
+.card-image-src {
+    width: 100%;
+    height: 100%;
+}
+.selected-btn{
+    width: 99px;
+    height: 35px;
+    background-color: #fff;
+    color: #2680EB;
+    position: relative;
+    left: 231px;
+    bottom: 61px;
+    border-radius: 5px;
+    border-style: hidden;
+    cursor: pointer;
+    font-size: 11px;
+    padding: 5px;
+}
+.info-element {
+    margin: 20px 30px 0px 30px;
+}
+.info-element span {
+    font-size: 12px;
+    display: flex;
+    position: relative;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+.news-blok {
+    display: flex;
+    width: 100%;
+    position: relative;
+    bottom: 50px;
+    flex-wrap: wrap;
+}
+.more-info-bloks{
+    position: relative;
+    width: 364px;
+    margin: 0 20px 50px 16px;
+    padding-left: 8px;
+    background-color: #EBEBEB;
+    border-top: 3px #2680EB solid;
+}
+.more-info-bloks h4 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.more-info-bloks article {
+    margin: 30px 0;
+    padding-bottom: 30px;
+    position: relative;
+
+}
+.more-info-bloks article span {
+    position: absolute;
+    bottom: 0;
+}
+.more-info-bloks a button {
+    width: 126px;
+    height: 41px;
+    background-color:#2680EB;
+    position: relative;
+    color: #fff;
+    right: 30px;
+    border-style: none;
+    cursor: pointer;
+    bottom: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
